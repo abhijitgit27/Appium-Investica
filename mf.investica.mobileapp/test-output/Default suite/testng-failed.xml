@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="investicamobileTestCases.Verify_GuestNavigation_TestCases">
+        <methods>
+          <include name="verify_navigation_FaqPage"/>
+          <include name="tearDown"/>
+          <include name="verify_navigation_to_Guest_InvestorDashboard"/>
+          <include name="verify_navigation_SignInPage"/>
+          <include name="verify_navigation_to_MyProfile_Guest"/>
+          <include name="verify_navigation_to_SupportPage"/>
+          <include name="appium_initial_setUp"/>
+          <include name="verify_Guest_Share_functionality"/>
+          <include name="verify_navigation_to_FundExplorer_Guest"/>
+          <include name="verify_navigation_to_MyTransactions_Guest"/>
+          <include name="verify_navigation_to_MyInvestments_Guest"/>
+        </methods>
+      </class> <!-- investicamobileTestCases.Verify_GuestNavigation_TestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ParametriseMobile" duration-ms="34436" started-at="2018-01-18T12:21:02Z" finished-at="2018-01-18T12:21:37Z">
+    <groups>
+    </groups>
+    <test name="TestAndroidDevice1" duration-ms="34436" started-at="2018-01-18T12:21:02Z" finished-at="2018-01-18T12:21:37Z">
+      <class name="investicamobileTestCases.Verify_Interapp_Switching_TestCases">
+        <test-method status="PASS" signature="appium_initial_setUp(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:investicamobileTestCases.Verify_Interapp_Switching_TestCases@35d176f7]" name="appium_initial_setUp" is-config="true" duration-ms="19070" started-at="2018-01-18T17:51:02Z" finished-at="2018-01-18T17:51:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4723]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[c1b5fe2f]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Android]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[5.1.1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium_initial_setUp -->
+        <test-method status="PASS" signature="verify_messagingApp()[pri:1, instance:investicamobileTestCases.Verify_Interapp_Switching_TestCases@35d176f7]" name="verify_messagingApp" duration-ms="14592" started-at="2018-01-18T17:51:21Z" finished-at="2018-01-18T17:51:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_messagingApp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:investicamobileTestCases.Verify_Interapp_Switching_TestCases@35d176f7]" name="tearDown" is-config="true" duration-ms="755" started-at="2018-01-18T17:51:36Z" finished-at="2018-01-18T17:51:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- investicamobileTestCases.Verify_Interapp_Switching_TestCases -->
+    </test> <!-- TestAndroidDevice1 -->
+  </suite> <!-- ParametriseMobile -->
+</testng-results>

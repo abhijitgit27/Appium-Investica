@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sprint2 Suite]" parallel="tests">
+  <test name="Sprint2 Test">
+    <classes>
+      <class name="testCases.NavigateMyaccount"/>
+      <class name="testCases.Footers"/>
+    </classes>
+  </test> <!-- Sprint2 Test -->
+  <test name="Sprint2 Test(failed)" parallel="tests">
+    <classes>
+      <class name="testCases.Footers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.Footers -->
+      <class name="testCases.NavigateMyaccount">
+        <methods>
+          <include name="tearDown"/>
+          <include name="myAccountNavigate"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testCases.NavigateMyaccount -->
+    </classes>
+  </test> <!-- Sprint2 Test(failed) -->
+</suite> <!-- Failed suite [Sprint2 Suite] -->

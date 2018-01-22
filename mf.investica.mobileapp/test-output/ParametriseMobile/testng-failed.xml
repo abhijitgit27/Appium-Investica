@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParametriseMobile]" parallel="tests">
+  <test name="TestAndroidDevice1(failed)" parallel="tests">
+    <parameter name="platform_version" value="5.1.1"/>
+    <parameter name="port" value="4723"/>
+    <parameter name="platform_name" value="Android"/>
+    <parameter name="device" value="c1b5fe2f"/>
+    <classes>
+      <class name="investicamobileTestCases.Verify_Interapp_Switching_TestCases">
+        <methods>
+          <include name="tearDown"/>
+          <include name="appium_initial_setUp"/>
+          <include name="verify_messagingApp"/>
+        </methods>
+      </class> <!-- investicamobileTestCases.Verify_Interapp_Switching_TestCases -->
+    </classes>
+  </test> <!-- TestAndroidDevice1(failed) -->
+</suite> <!-- Failed suite [ParametriseMobile] -->
